@@ -1,3 +1,4 @@
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 
 export default function Users() {
@@ -5,6 +6,7 @@ export default function Users() {
     <>
       <Header />
       <h1>List Users</h1>
+      <Footer />
     </>
   );
 }

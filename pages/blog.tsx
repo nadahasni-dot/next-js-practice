@@ -1,3 +1,4 @@
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 export default function Blog() {
@@ -5,6 +6,7 @@ export default function Blog() {
     <>
       <Header />
       <h1>Blog Post</h1>
+      <Footer />
     </>
   );
 }
