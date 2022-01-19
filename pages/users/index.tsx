@@ -1,7 +1,10 @@
+import Header from '../../components/Header';
+
 export default function Users() {
   return (
-    <div>
+    <>
+      <Header />
       <h1>List Users</h1>
-    </div>
+    </>
   );
 }
