@@ -1,12 +1,9 @@
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
+import Layout from '../../components/Layout';
 
 export default function Users() {
   return (
-    <>
-      <Header />
+    <Layout>
       <h1>List Users</h1>
-      <Footer />
-    </>
+    </Layout>
   );
 }

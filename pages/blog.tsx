@@ -1,12 +1,9 @@
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 
 export default function Blog() {
   return (
-    <>
-      <Header />
+    <Layout>
       <h1>Blog Post</h1>
-      <Footer />
-    </>
+    </Layout>
   );
 }

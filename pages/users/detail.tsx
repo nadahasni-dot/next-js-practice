@@ -1,13 +1,10 @@
 import React from 'react';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
+import Layout from '../../components/Layout';
 
 export default function UserDetail() {
   return (
-    <>
-      <Header />
+    <Layout>
       <h1>User Detail</h1>
-      <Footer />
-    </>
+    </Layout>
   );
 }
